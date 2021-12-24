@@ -20,4 +20,17 @@ func main() {
 		fmt.Println(element) //1962
 	}
 
+	/* Check if data exists in Map */
+	if val, exists := firstReleases["C"]; exists {
+		fmt.Println("val ", val)       // val value of "C"
+		fmt.Println("exists ", exists) // Will be true of key exists
+	}
+
+	if val, exists := firstReleases["foo"]; exists {
+		// Note: val will receive value from map
+		// exists will be true if key exists
+
+		fmt.Println("val ", val)
+		fmt.Println("exists ", exists)
+	}
 }
