@@ -11,3 +11,7 @@ func main() {
 		fmt.Println(index, option)
 	}
 }
+
+/*
+Note: Go doesn't have While loop. It uses for loop instead.
+*/
